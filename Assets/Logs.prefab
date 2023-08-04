@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6774797064382090085}
   - component: {fileID: 1575198962055286218}
   - component: {fileID: 1575198962055286217}
-  - component: {fileID: 6536319360033486700}
+  - component: {fileID: 2616953143552765529}
   m_Layer: 0
   m_Name: Logs
   m_TagString: Untagged
@@ -28,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5080242267835673991}
-  m_LocalRotation: {x: -0.3146549, y: -0.6091509, z: -0.3377451, w: 0.6448688}
+  m_LocalRotation: {x: -0.3146547, y: -0.60915256, z: -0.33774298, w: 0.6448684}
   m_LocalPosition: {x: 2.97, y: 1.5725749, z: -0.9271319}
-  m_LocalScale: {x: 3.5366235, y: 4.9758434, z: 4.94169}
+  m_LocalScale: {x: 3.5366242, y: 4.975843, z: 4.9416914}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -54.815, y: -84.038, z: -5.203}
 --- !u!33 &1575198962055286216
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3846018093981099296, guid: 6fece7d64127b4b81bd76b8cb820609a, type: 3}
+  - {fileID: -6478536213147159724, guid: 6fece7d64127b4b81bd76b8cb820609a, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -116,7 +116,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6536319360033486700
+--- !u!114 &2616953143552765529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

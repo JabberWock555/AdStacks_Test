@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
+    [SerializeField] private Joystick joystick;
     [SerializeField] private Transform orientation;
     [SerializeField] private float moveSpeed;
 
@@ -34,8 +34,17 @@ public class PlayerController : MonoBehaviour
 
     private void getInput()
     {
-        horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
+        if (joystick.Horizontal == 0 || joystick.Vertical == 0)
+        {
+            horizontal = Input.GetAxis("Horizontal");
+            vertical = Input.GetAxis("Vertical");
+        }
+        else
+        {
+
+            horizontal = joystick.Horizontal;
+            vertical = joystick.Vertical;
+        }
     }
 
     private void Move()
